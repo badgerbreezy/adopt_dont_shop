@@ -128,7 +128,7 @@ and I am redirected to the Shelter Index page where I see the new Shelter listed
 
 User Story 5, Shelter Update
 
-[ ] done
+[x] done
 
 As a visitor
 When I visit a shelter show page
@@ -145,9 +145,10 @@ And I click the button to submit the form
 Then a `PATCH` request is sent to '/shelters/:id',
 the shelter's info is updated,
 and I am redirected to the Shelter's Show page where I see the shelter's updated info
-[ ] done
 
 User Story 6, Shelter Delete
+
+[x] done
 
 As a visitor
 When I visit a shelter show page
@@ -156,12 +157,13 @@ When I click the link "Delete Shelter"
 Then a 'DELETE' request is sent to '/shelters/:id',
 the shelter is deleted,
 and I am redirected to the shelter index page where I no longer see this shelter
-Pets
+
+**Pets**
 Pets can be adopted from the Shelter. Pets belong to a shelter.
 
-[ ] done
-
 User Story 7, Pet Index
+
+[ ] done
 
 As a visitor
 When I visit '/pets'
@@ -173,6 +175,8 @@ Then I see each Pet in the system including the Pet's:
 - name of the shelter where the pet is currently located
 
 NOTE: Images should be stored as a string as the url pointing to an externally hosted image, for example: "https://dogtime.com/assets/uploads/2018/10/puppies-cover.jpg"
+
+
 [ ] done
 
 User Story 8, Shelter Pets Index

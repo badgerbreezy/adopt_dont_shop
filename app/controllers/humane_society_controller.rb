@@ -1,3 +1,0 @@
-class HumaneSocietyController < ApplicationController
-
-end
