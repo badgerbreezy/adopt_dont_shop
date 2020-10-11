@@ -7,3 +7,10 @@
   Sex: <%= @pet.sex %><br/>
   Status: <%= @pet.status %>
 </p>
+<a href="/pets/<%= @pet.id %>/edit"><input type="submit" value="Click here to edit this pet's information"/></a>
+
+<form action="/pets/<%= @pet.id %>" method="POST">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="hidden" name="_method" value="DELETE">
+  <input type="submit" value="click here to remove this pet"/>
+</form>

@@ -1,0 +1,20 @@
+<%= form_tag("/shelters/#{@shelter_id}/pets", method: :post) do %>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <strong>Add an Adoptable Pet</strong>
+  <p>Image URL:</p>
+  <input type='text' name='pet[image]'/><br/>
+  <p>Pet name:</p>
+  <input type='text' name='pet[name]'/><br/>
+  <p>Pet Description:</p>
+  <input type='text' name='pet[description]'/><br/>
+  <p>Pet Age:</p>
+  <input type='text' name='pet[age]'/><br/>
+  <p>Pet Sex:</p>
+  <input type='text' name='pet[sex]'/><br/>
+  <br/>
+  <input type='hidden' name='pet[shelter_name]' value="<%= @shelter_name %>"/>
+  <input type='hidden' name='pet[status]' value="Adoptable"/>
+  <input type='hidden' name='pet[shelter_id]' value='@shelter_id'/>
+
+  <input type="submit" value="Create Pet" />
+<% end %>

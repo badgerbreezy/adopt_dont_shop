@@ -1,5 +1,5 @@
 class Pet < ApplicationRecord
-  belongs_to :shelter
+  belongs_to :shelter, optional: true
 
   validates_presence_of :name
 

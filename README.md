@@ -163,7 +163,7 @@ Pets can be adopted from the Shelter. Pets belong to a shelter.
 
 User Story 7, Pet Index
 
-[ ] done
+[x] done
 
 As a visitor
 When I visit '/pets'
@@ -221,7 +221,7 @@ Then a `POST` request is sent to '/shelters/:shelter_id/pets',
 a new pet is created for that shelter,
 that pet has a status of 'adoptable',
 and I am redirected to the Shelter Pets Index page where I can see the new pet listed
-[ ] done
+[x] done
 
 User Story 11, Pet Update
 
@@ -239,7 +239,7 @@ When I click the button to submit the form "Update Pet"
 Then a `PATCH` request is sent to '/pets/:id',
 the pet's data is updated,
 and I am redirected to the Pet Show page where I see the Pet's updated information
-[ ] done
+[x] done
 
 User Story 12, Pet Delete
 
@@ -250,7 +250,7 @@ When I click the link
 Then a 'DELETE' request is sent to '/pets/:id',
 the pet is deleted,
 and I am redirected to the pet index page where I no longer see this pet
-
+[x] done
 
 **Usability**
 Users should be able to use the site easily. This means making sure there are links/buttons to reach all parts of the site and the styling/layout is sensible.
