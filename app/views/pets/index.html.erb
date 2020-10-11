@@ -1,1 +1,10 @@
-<h1>
+<h2>Available for Adoption</h2>
+
+<% @pets.each do |pet| %>
+  <a href="/pets/<%= pet.id %>"><img src="<%= pet.image %>" height="300"><br/>
+  <p ><%= pet.name %></p>
+  <p>Age: <%= pet.age %><br/>
+    Sex: <%= pet.sex %><br/>
+    Shelter: <%= pet.shelter_name %>
+  </p>
+<% end %>

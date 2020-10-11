@@ -1,9 +1,11 @@
 <h2>Our Wonderful Network of Shelters</h2>
 
-<% @shelters.each do |shelter| %>
-  <ul>
-    <li><a href="/shelters/<%= shelter.id %>"><%= shelter.name %></a></li>
-  </ul>
-<% end %>
+
+<ul>
+  <% @shelters.each do |shelter| %>
+    <li><a href="/shelters/<%= shelter.id %>"><%= shelter.name %></li>
+  <% end %>
+</ul>
+
 <br>
 <a href="/shelters/new">Click here to add a new shelter to our list!</a>

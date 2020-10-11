@@ -1,0 +1,17 @@
+<h2>Available for Adoption at
+  <% shelter_title = [] %>
+  <% @pets_per_shelter.map do |pet| %>
+    <% shelter_title << pet.shelter_name %>
+  <% end %>
+  <%= shelter_title[0] %>
+</h2>
+
+
+
+
+<% @pets_per_shelter.each do |pet| %>
+  <img src="<%= pet.image %>" height="300"><br/>
+  <p><%= pet.name %></p>
+  <p padding="10">Age: <%= pet.age %><br/>
+    Sex: <%= pet.sex%></p>
+<% end %>

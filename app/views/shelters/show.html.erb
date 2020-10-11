@@ -1,4 +1,7 @@
 <h2><%= @shelter.name %></h2>
+
+<a href="/shelters/<%= @shelter.id %>/pets">Available Pets for Adoption Here!</a>
+
 <p><%= @shelter.address %>, <%= @shelter.city %>, <%= @shelter.state %> <%= @shelter.zip %></p>
 
 <a href="/shelters/<%= @shelter.id %>/edit"><input type="submit" value="Click here to edit this shelter's information"/></a>

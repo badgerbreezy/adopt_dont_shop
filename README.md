@@ -177,7 +177,7 @@ Then I see each Pet in the system including the Pet's:
 NOTE: Images should be stored as a string as the url pointing to an externally hosted image, for example: "https://dogtime.com/assets/uploads/2018/10/puppies-cover.jpg"
 
 
-[ ] done
+[x] done
 
 User Story 8, Shelter Pets Index
 
@@ -188,7 +188,7 @@ Then I see each Pet that can be adopted from that Shelter with that shelter_id i
 - name
 - approximate age
 - sex
-[ ] done
+[x] done
 
 User Story 9, Pet Show
 
@@ -201,7 +201,7 @@ Then I see the pet with that id including the pet's:
 - approximate age
 - sex
 - adoptable/pending adoption status
-[ ] done
+[x] done
 
 User Story 10, Shelter Pet Creation
 
@@ -250,7 +250,9 @@ When I click the link
 Then a 'DELETE' request is sent to '/pets/:id',
 the pet is deleted,
 and I am redirected to the pet index page where I no longer see this pet
-Usability
+
+
+**Usability**
 Users should be able to use the site easily. This means making sure there are links/buttons to reach all parts of the site and the styling/layout is sensible.
 
 [ ] done
@@ -331,7 +333,9 @@ User Story 22, Styling
 As a visitor
 When I visit any page on the site
 Then I should see a reasonably well styled page
-Extensions
+
+--------------------------------------------------------------------
+**Extensions**
 [ ] done
 
 User Story 23, Shelter Pet Count
