@@ -264,7 +264,7 @@ When I visit the shelter index page
 Next to every shelter, I see a link to edit that shelter's info
 When I click the link
 I should be taken to that shelters edit page where I can update its information just like in User Story 5
-[ ] done
+[x] done
 
 User Story 14, Shelter Delete From Shelter Index Page
 
@@ -282,7 +282,7 @@ When I visit the pets index page or a shelter pets index page
 Next to every pet, I see a link to edit that pet's info
 When I click the link
 I should be taken to that pets edit page where I can update its information just like in User Story 11
-[ ] done
+[x] done
 
 User Story 16, Pet Delete From Pets Index Page
 
@@ -291,7 +291,7 @@ When I visit the pets index page or a shelter pets index page
 Next to every pet, I see a link to delete that pet
 When I click the link
 I should be taken to the pets index page where I no longer see that pet
-[ ] done
+[x] done
 
 User Story 17, Shelter Links
 

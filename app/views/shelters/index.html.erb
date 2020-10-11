@@ -1,9 +1,11 @@
 <h2>Our Wonderful Network of Shelters</h2>
 
-
 <ul>
   <% @shelters.each do |shelter| %>
-    <li><a href="/shelters/<%= shelter.id %>"><%= shelter.name %></li>
+    <li>
+      <a href="/shelters/<%= shelter.id %>" style="font-size:125%"><%= shelter.name %>
+      <a href="/shelters/<%= shelter.id %>/edit">edit</a>
+    </li>
   <% end %>
 </ul>
 

@@ -7,4 +7,12 @@
     Sex: <%= pet.sex %><br/>
     Shelter: <%= pet.shelter_name %>
   </p>
+  <a href="/pets/<%= pet.id %>/edit"><input type="submit" value="edit"/></a>
+  <br>
+  <form action="/pets/<%= pet.id %>" method="POST">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="Remove"/>
+  </form>
+  <br>
 <% end %>
