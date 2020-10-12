@@ -36,33 +36,38 @@ Use Pry or Byebug in Rails files to get more information about an error
 Use save_and_open_page to view the HTML generated when visiting a path in a feature test
 Utilize the Rails console as a tool to get more information about the current state of a development database
 Use rails routes to get additional information about the routes that exist in a Rails application
-Styling
-Create basic Web Pages using the following tags
-<h1>, <h2>, etc.
-<p>
-<body>
-<a> and the href attribute
-<img> and the src attribute
-<div>
-<section>
-<ul>, <ol>, and <li>
-<form>
-<input>
+
+**Styling**
+- Create basic Web Pages using the following tags
+`<h1>, <h2>, etc.`
+`<p>`
+`<body>`
+`<a> and the href attribute`
+`<img> and the src attribute`
+`<div>`
+`<section>`
+`<ul>, <ol>, and <li>`
+`<form>`
+`<input>`
 Select HTML elements using classes and ids
 Web Applications
 Describe the HTTP request/response cycle
 Describe the different parts of HTTP requests and responses
-Requirements
+
+**Requirements**
 must use Rails 5.2.4.3
 must use PostgreSQL
 must "handroll" all routes (no use of resources syntax)
 must use form_tag for all forms (no use of form_for)
-Permitted
-use FactoryBot to speed up your test development
-use "rails generators" to speed up your app development
-Not Permitted
-do not use JavaScript for pagination or sorting controls
-Permission
+
+**Permitted**
+- use FactoryBot to speed up your test development
+- use "rails generators" to speed up your app development
+
+**Not Permitted**
+- do not use JavaScript for pagination or sorting controls
+
+**Permission**
 if there is a specific gem you'd like to use in the project, please get permission from your instructors firs
 Rubric
 Feature Completeness	Rails	ActiveRecord	Testing and Debugging
